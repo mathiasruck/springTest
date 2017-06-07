@@ -1,0 +1,16 @@
+environments:
+  develoment:
+    url: http://development.mathiasruck.com.br
+    name: Mathias Rückert - Dev Environment
+    active:
+          profile:
+            property: The actual profile is "Development"
+  production:
+    url: http://development.mathiasruck.com.br
+    name: Mathias Rückert - Production Environment
+    active:
+      profile:
+        property: The actual profile is "Production"
+spring:
+  profiles:
+    active: production

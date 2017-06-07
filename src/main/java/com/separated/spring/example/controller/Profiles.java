@@ -18,7 +18,7 @@ public class Profiles {
         return profile + "\n" ;
     }
 
-    @RequestMapping("/profileProperty")
+    @RequestMapping("/profile/property")
     private String profileProperty(){
         return profileProperty;
     }
